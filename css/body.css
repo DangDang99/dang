@@ -1,0 +1,85 @@
+body{
+    background-color:#fff;     
+    width: 100%;
+}
+body,p{
+    font:15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    color: #333;  
+    line-height: 1.5;
+}
+div.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+/**页眉区**/
+div#header{    
+    height: 100px;
+    background: url(../img/bg_header.jpg) no-repeat right;
+}
+div#header #logo{   /**页眉区——logo区域**/
+    width: 500px;
+    height: 100px;
+}
+
+/**导航栏区**/
+div#naver{   
+    height: 50px;   /**导航栏高度和背景颜色**/
+    background-color: burlywood;
+}
+div#naver ul{     /**ul标签区域的背景、高低、边距样式**/
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 40px 0 40px;
+    background-color: burlywood;
+}
+div#naver .nav{   /**li标签**/
+    display: inline-block;    /**水平排列，li标签元素可以在同一行显示**/
+    position: relative;
+    vertical-align: bottom;
+    height: 50px;
+}
+div#naver a{     /**a元素的字体的大小、颜色、字体等样式设置**/
+    color: #fff;
+    height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 62px;
+    text-align: center;
+}
+li,ul {list-style: none;}
+a{text-decoration: none;}
+a:hover{background-color:blanchedalmond;}    /**a元素鼠标悬停时的背景颜色**/
+
+/**内容区 ——布局的时候先随便指定一个高度，具体到每个页面再调整**/
+div#container{
+    height: 800px;   
+}
+/**页脚区**/
+div#footer{
+    height: 140px;
+    background-color: darkgray;
+    border-top: burlywood 8px solid;
+    padding: 30px 0;
+    font-size: 14px;
+}
+div#footer #scan{   /**页脚的二维码区域**/
+    float: left;
+    margin: 0px 20px 0px 400px;
+}
+div#footer #scan li{  
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+div#footer #scan li img{
+    display: block;
+}
+div#footer #contact{  /**页脚的联系方式区域**/
+    float: left;   /**设为浮动**/
+    padding: 10px 20px 0px 20px;
+    margin: 0px 50px 0px 50px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border: whitesmoke 1px dotted;    /**加点状边框**/
+}

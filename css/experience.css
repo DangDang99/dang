@@ -1,0 +1,39 @@
+/* 内容区——设置高度，插入背景图片 */
+div#container{   
+    height: 850px;
+    background: url(../img/bg_container2.jpg) repeat;
+}
+div#container .inner{
+    width: 1000px;
+}
+/* 页面标题区 ——设置内边距*/
+div#title{
+    padding: 20px 0px 0px 300px;
+}
+/* 标题段落 ——设置字体颜色、大小等*/
+div#title p{
+    color: burlywood;
+    font:25px;
+    margin-bottom: 0px;
+}
+/* 表格——设置上外边距 */
+table{
+    margin-top: 30px;
+}
+/* 表格标题——设置对齐方式、字体大小、粗细 */
+.content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+/* 表头单元格，包括表头信息——设置字体大小、背景颜色 */
+th{
+    font-size: 14px;
+    background-color: rgb(247, 236, 222);
+}
+/* 标准单元格，包括数据——设置高和宽、对齐方式 */
+td{
+    min-width: 80px;
+    height: 30px;
+    text-align: center;
+}

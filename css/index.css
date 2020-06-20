@@ -1,0 +1,61 @@
+
+/**主体内容区**/
+div#container{
+    height: 500px;    /**给内容区插入背景图片**/
+    background: url(../img/bg_container1.jpg) no-repeat;
+}
+div#container #cont_1{    /**内容区的上半部分的样式**/
+    margin: 0px 50px 10px 50px;
+    padding-top: 10px;
+    width: 900px;
+    height: 240px;
+}
+div#container #cont_1 #welcome{   /**  ‘欢迎来到我的主页’ 区域 **/
+    height: 30px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px 20px 10px 10px;
+}
+div#container #cont_1 #welcome p{   /** ‘欢迎来到我的主页’ 字体的颜色、大小样式 **/
+    margin: 0px;
+    color: burlywood;
+    font:25px "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+div#container #cont_1 #person{    /**  自我介绍 区域 **/
+    margin: 10px 20px 0px 20px;
+    height: 170px;
+}
+div#container #cont_1 #person #photo{     /** 头像 区域 **/
+    margin: 10px 20px 10px 100px;
+    width: 150px;
+    float: left;
+}
+div#container #cont_1 #person #introduce{   /** 介绍自己的话 区域 **/
+    margin: 10px 10px;
+    width: 560px;
+    float: left;
+    font-size: 17px;
+    line-height: normal;
+    color: rgb(99, 74, 99);
+}
+div#container #cont_2{     /** 内心独白下半部分  样式 **/
+    margin: 10px 50px 20px 50px;
+    width: 900px;
+    height: 200px;
+}
+div#container #cont_2 .title{    /** ‘内心独白’ 的样式 **/
+    width: 180px;
+    margin: 0px 20px 10px 40px;
+    padding: 0px 0px 5px 10px;
+    background: url(../img/titlephoto.png)  no-repeat bottom right;  /** 在右下角插入图片 **/
+    background-size: 40px;
+    border-bottom: rgb(99, 74, 99) 1px dashed;     /** 设置下边界线 **/
+    font-size: 18px;
+    color: rgb(99, 74, 99);
+    font-style: italic;
+}
+div#container #cont_2 .artical{
+    margin: 5px 0px 10px 50px;
+    font-size: 16.5px;
+    line-height: 2;
+}
+

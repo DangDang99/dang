@@ -1,0 +1,36 @@
+div#container{     /**向内容区插入背景图片**/
+    height: 600px;
+    background: url(../img/bg_container4.jpg) repeat-x;
+}
+div#container .inner{
+    height: 600px;
+}
+div#container .inner h2{       /**标题的字体样式**/
+    margin-top: 0px;
+    padding: 30px 10px 0px 150px;
+    color: burlywood;
+    font-size: 20px;
+    font-weight: normal；
+}
+form {      /**表单的样式**/
+    margin: 0px 10px 10px 150px;
+	display: table;      /**表单设置为表的样式**/
+	padding: 10px;
+    border: medium dotted #7e7e7e;     /**表单的边框**/
+}
+form textarea {     /**留言文本区的大小**/
+	width: 600px;
+    height: 200px;
+}
+div.tableRow {     /**每一个问题按照表格的行的样式显示**/
+    display: table-row;
+    padding: 5px 0px;
+}
+div.tableRow p {  /**每一个文本按照单元格展示**/
+	display: table-cell;
+	vertical-align: top;
+	padding: 8px;
+}
+div.tableRow p:first-child {    /**问题题目（我们的关系、联系方式等）右对齐**/
+	text-align: right;
+}

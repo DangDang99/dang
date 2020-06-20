@@ -1,0 +1,92 @@
+div#container{
+    height: 1800px;
+}
+div#container .inner{
+    width: 1200px;
+}
+
+/**美食区域**/
+div#container #food{     /**美食区设置高度、宽度、边框**/
+    height: 570px;
+    margin: 30px 0px;
+    width: 1200px;
+    border: dashed 1.2px burlywood;
+}
+div#container #title{      /**每个区标题——设置高度、宽度、外边距**/
+    height: 100px;
+    width: 300px;
+    margin: 0px 5px;
+}
+div#container #word{     /**描述区——设置高度、宽度、内外边距、背景图片**/
+    height: 120px;
+    width: 800px;
+    margin: 0px 200px;
+    padding: 10px 20px 0px 0px;
+    background: url(../img/bg_word.jpg) no-repeat;
+}
+div#container #word p{     /**描述区——设置段落的字体大小，居中对齐**/
+    font-size: 17.5px;
+    margin: 8px 0px;
+    text-align: center;
+}
+
+div#container #food #foodphoto{     /**美食图片区——设置高度**/
+    height: 300px;
+}
+div#container #food #foodphoto #foodp{   /**美食图片区——设置每个图片所在的区域宽高，浮动方式**/
+    width: 280px;
+    height: 260px;
+    padding: 30px 0px 20px 0px;
+    margin: 0px 10px;
+    float: left;
+}
+
+/**旅游区域**/
+div#container #travel{     /**旅游区设置高度、宽度、边框**/
+    height: 550px;
+    margin: 30px 0px;
+    width: 1200px;
+    border: dashed 1.2px burlywood;
+}
+div#container #travel #travelphoto{     /**旅游图片区——设置高度**/
+    height: 400px;
+}
+div#container #travel #travelphoto #travelp{   /**旅游图片区——设置每个图片所在的区域宽高，浮动方式**/
+    width: 380px;
+    height: 360px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 10px;
+    float: left;
+}
+
+/**追剧区域**/
+div#container #teleplay{     /**追剧区设置高度、宽度、边框**/
+    height: 550px;
+    margin: 30px 0px;
+    width: 1200px;
+    border: dashed 1.2px burlywood;
+}
+div#container #teleplay #playtitle{      /**追剧区标题——设置高度、宽度、外边距**/
+    height: 100px;
+    width: 300px;
+    margin: 0px 5px;
+    background: url(../img/play0.png) no-repeat;
+}
+div#container #teleplay #playphoto{
+    height: 300px;
+} 
+ div#container #teleplay #playphoto #playp1{   /*追剧图片区——设置图片所在的区域宽高，浮动方式 */
+    width: 400px;
+    height: 230px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 50px 0px 150px;
+    float: left;
+ }
+ div#container #teleplay #playphoto #playp2{   /*追剧图片区——设置图片所在的区域宽高，浮动方式 */
+    width: 400px;
+    height: 230px;
+    padding: 30px 0px 0px 0px;
+    margin: 0px 150px 0px 50px;
+    float: left;
+ }
+
